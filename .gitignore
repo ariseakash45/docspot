@@ -1,8 +1,9 @@
-# Node modules and dependencies
+## Node modules and dependencies
 node_modules/
 
 # Environment secrets
 .env
+!backend/.env     # Allow .env in backend folder
 
 # Logs
 *.log
@@ -10,3 +11,4 @@ node_modules/
 # System files
 .DS_Store
 Thumbs.db
+
